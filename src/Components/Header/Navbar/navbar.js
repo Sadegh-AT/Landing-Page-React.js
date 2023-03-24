@@ -61,7 +61,9 @@ export default function Navbar() {
         </a>
       </div>
       <div className="hamb-menu">
-        <div></div>
+        <div>
+          <img src="./image/menu.png" alt="" />
+        </div>
       </div>
     </div>
   );
