@@ -12,6 +12,7 @@
   /* border: 1px oldlace solid; */
   width: 3rem;
   margin-right: 0;
+  z-index: 10;
 }
 .logo svg {
   width: 100%;
@@ -52,6 +53,7 @@
   align-items: center;
   justify-content: center;
   display: none;
+  z-index: 10;
 }
 .navbar-btns a {
   margin-left: 1.5rem;
@@ -74,4 +76,5 @@
   height: 3rem;
   background-color: white;
   border-radius: 1rem;
+  z-index: 10;
 }
