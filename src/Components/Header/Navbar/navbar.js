@@ -29,34 +29,34 @@ export default function Navbar() {
         </div>
         <ul className="menu">
           <li className="active">
-            <a href="#">Home</a>
+            <a href="#0">Home</a>
           </li>
           <li>
-            <a href="#">Destination</a>
+            <a href="#0">Destination</a>
           </li>
           <li>
-            <a href="#">Near me</a>
+            <a href="#0">Near me</a>
           </li>
           <li>
-            <a href="#">Events</a>
+            <a href="#0">Events</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#0">Blog</a>
           </li>
           <li>
-            <a href="#">Gallery </a>
+            <a href="#0">Gallery </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#0">About</a>
           </li>
           <li>
-            <a href="#">Contact us</a>
+            <a href="#0">Contact us</a>
           </li>
         </ul>
       </div>
       <div className="navbar-btns">
-        <a href="#">Sign up</a>
-        <a href="#" className="active">
+        <a href="#d">Sign up</a>
+        <a href="#d" className="active">
           Sign in
         </a>
       </div>
