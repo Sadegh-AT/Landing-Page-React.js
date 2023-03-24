@@ -4,6 +4,9 @@ import "./Header.css";
 // Navbar
 import Navbar from "./Navbar/Navbar";
 
+//Boxes
+import Boxes from "./Boxes/Boxes";
+
 export default function Header() {
   return (
     <div className="header">
@@ -17,6 +20,7 @@ export default function Header() {
           </h4>
           <button className="header-btn">Discover</button>
         </div>
+        <Boxes></Boxes>
       </div>
     </div>
   );

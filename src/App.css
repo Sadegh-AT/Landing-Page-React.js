@@ -1,11 +1,11 @@
 /* Fonts */
 @font-face {
   font-family: "Roboto";
-  src: url("../public/Font/Roboto/Roboto-Regular.ttf");
+  src: url("../public/font/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Archivo";
-  src: url("../public/Font/Archivo/Archivo-Black.ttf");
+  src: url("../public/font/Archivo/Archivo-Black.ttf");
 }
 /* Fonts */
 
@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
+  background-color: #faf4f2;
 }
 
 .container {
