@@ -52,6 +52,10 @@ body {
   .hamb-menu {
     display: none;
   }
+  .newsletter {
+    flex-direction: row;
+    text-align: start;
+  }
 }
 
 @media (min-width: 1200px) {

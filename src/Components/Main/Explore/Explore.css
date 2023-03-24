@@ -33,6 +33,7 @@
   box-sizing: border-box;
   margin-top: 2rem;
   transition: all 0.15s ease-in-out;
+  background-color: transparent;
 }
 .explore-btn:hover {
   background-color: #e97f51;
