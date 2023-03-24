@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  transform: translateY(-10rem);
+  /* transform: translateY(-10rem); */
   z-index: 10;
-  margin-top: 4rem;
+  margin-top: -6rem;
+  margin-bottom: 4rem;
 }
