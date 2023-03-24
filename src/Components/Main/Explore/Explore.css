@@ -22,3 +22,20 @@
   font-size: 2rem;
   max-width: 23rem;
 }
+.explore-btn {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #e97f51;
+  border: 1px solid #e97f51;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  transition: all 0.15s ease-in-out;
+}
+.explore-btn:hover {
+  background-color: #e97f51;
+  color: #3b3735;
+  cursor: pointer;
+}

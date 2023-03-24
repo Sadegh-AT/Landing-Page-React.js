@@ -1,5 +1,9 @@
 import React from "react";
 import "./Explore.css";
+
+//Places
+import Places from "./Places/Places";
+
 export default function Explore() {
   return (
     <div className="explore">
@@ -9,6 +13,8 @@ export default function Explore() {
         </div>
         <h3 className="explore-title">Explore Destinations & Activities</h3>
       </div>
+      <Places></Places>
+      <button className="explore-btn">View More</button>
     </div>
   );
 }

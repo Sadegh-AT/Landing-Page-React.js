@@ -32,6 +32,10 @@ body {
   .container {
     width: 720px;
   }
+  .place-body {
+    max-width: 20rem;
+    flex-grow: 0;
+  }
 }
 
 @media (min-width: 992px) {
