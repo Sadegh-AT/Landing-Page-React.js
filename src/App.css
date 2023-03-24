@@ -1,11 +1,24 @@
+/* Fonts */
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/Font/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../public/Font/Archivo/Archivo-Black.ttf");
+}
+/* Fonts */
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto";
 }
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
+  transition: all 0.18s ease-in-out;
 }
 
 @media (min-width: 576px) {
@@ -23,6 +36,15 @@ body {
 @media (min-width: 992px) {
   .container {
     width: 960px;
+  }
+  .menu {
+    display: flex;
+  }
+  .navbar-btns {
+    display: flex;
+  }
+  .hamb-menu {
+    display: none;
   }
 }
 
