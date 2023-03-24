@@ -71,6 +71,8 @@
 .navbar-btns a.active:hover {
   background-color: white;
   color: #3b3735;
+  z-index: 10;
+  cursor: pointer;
 }
 .hamb-menu {
   width: 3rem;

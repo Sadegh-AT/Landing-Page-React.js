@@ -20,6 +20,7 @@ body {
   /* border: 1px solid red; */
   margin: 0 auto;
   transition: all 0.18s ease-in-out;
+  padding: 0 1rem;
 }
 
 @media (min-width: 576px) {
