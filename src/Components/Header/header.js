@@ -6,7 +6,7 @@ import Navbar from "./Navbar/Navbar";
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="container">
         <Navbar></Navbar>
         <div className="haeder-content">
@@ -18,6 +18,6 @@ export default function Header() {
           <button className="header-btn">Discover</button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

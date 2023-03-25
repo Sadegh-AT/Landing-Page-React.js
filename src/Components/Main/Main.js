@@ -12,7 +12,7 @@ import Newsletter from "./Newsletter/Newsletter";
 
 export default function Main() {
   return (
-    <div>
+    <main>
       <div className="container">
         <Boxes></Boxes>
         <Explore></Explore>
@@ -23,6 +23,6 @@ export default function Main() {
         <br />
         <br />
       </div>
-    </div>
+    </main>
   );
 }
